@@ -1,0 +1,15 @@
+class bharath
+{
+	public static void main(String[]args)
+	{
+		
+	// initial amount in wallet
+	int wallet=2000;
+	System.out.println("initial amount in wallet:"+wallet);
+	// shopping details
+	int lipstrick_price=50;
+	 wallet= wallet-lipstrick_price;
+	//wallet=wallet-lipstrick price
+	System.out.println("current wallet amount :"+ wallet);
+	}
+}

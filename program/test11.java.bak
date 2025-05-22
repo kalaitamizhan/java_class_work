@@ -1,0 +1,11 @@
+class test11
+{
+	public static void main(String[]args)
+	{
+		int x=15;
+		float y=4.0;
+		float div=x/y;
+		div+=3;
+		System.out.println("Division result:"+div);
+	}
+}

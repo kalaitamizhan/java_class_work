@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class StudentGradeIF
+{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[]args)
+	{
+		System.out.print("\t\t\tEnter the Percentage:");
+		int per=sc.nextInt();
+		
+		if(per>100 || per<=0 )
+		{
+			System.out.println("Invaled");
+		}
+		
+		
+		
+	}
+}

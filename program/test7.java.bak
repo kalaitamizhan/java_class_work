@@ -1,0 +1,10 @@
+class test7 
+{
+	public static void main(String[] args) 
+	{
+		//before swapimg
+		int a=5,b=10;
+		System.out.println("before swaping");
+		System.out.println("a:"+a+",b:"+b);
+	}
+}

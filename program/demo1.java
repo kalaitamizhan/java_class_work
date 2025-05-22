@@ -1,10 +1,11 @@
 class demo1
 {
-    static int a=10;
-    static int b=20;
     public static void main(String[]args)
     {
-    System.out.println(a+b);
+    int a=10;
+    int b=5;
+    int res = (a>b)?"A":"B";
+    System.out.println(res+":is grater");
     }
   
 }
