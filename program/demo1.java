@@ -1,6 +1,3 @@
-## this program for globle variable
-
-```bash
 class demo1
 {
     static int a=10;
@@ -11,6 +8,3 @@ class demo1
     }
   
 }
-
-```
-<a href="program/demo1.java">source file</a>
