@@ -7,7 +7,8 @@ class demo1
     static int b=20;
     public static void main(String[]args)
     {
-    System.out.println(a+b);
+char res =(a>b)?'A':'B';
+    System.out.println(res+":is Grater");
     }
   
 }
