@@ -12,20 +12,14 @@ class FizzBuzz1
 		
 		System.out.println("fizzBuzz");
 		}
-		else 
-		{
+		else {
 			if (number%3==0)
 			System.out.println("Fizz");
 		
 			else 
 				if (number%5==0)
 			
-				System.out.println("Buzz");
-			
-			else
-		
-			System.out.println("Invalid");
-		}
+			System.out.println("Buzz");
 			System.out.println("Ends");
-	}
+	}}
 }
