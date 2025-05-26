@@ -5,7 +5,7 @@
  
    
       
-  <h1> 𝗜'𝗺 Krishna Kumar E.S <img src="https://raw.githubusercontent.com/Narayanan-info/Narayanan-info/main/g1.gif" width="100" height="50">
+  <h1> I'm S.Dayanithi BE(cse) <img src="https://raw.githubusercontent.com/Narayanan-info/Narayanan-info/main/g1.gif" width="100" height="50">
        </h1>
 - 🔭 I’m Searching for job on Software Engineer <br>
 - 🌱 Worked Backend Tech For Secure Code - [ Python , NodeJs ] <br>
