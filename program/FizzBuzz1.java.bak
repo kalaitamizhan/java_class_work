@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class FizzBuzz2
+class FizzBuzz1
 {
 	static Scanner sc=new Scanner(System.in);
 	public static void main(String[]args)
@@ -12,8 +12,7 @@ class FizzBuzz2
 		
 		System.out.println("fizzBuzz");
 		}
-		else 
-		{
+		else {
 			if (number%3==0)
 			System.out.println("Fizz");
 		
@@ -21,11 +20,6 @@ class FizzBuzz2
 				if (number%5==0)
 			
 				System.out.println("Buzz");
-			
-			else
-		
-			System.out.println("Invalid");
-		}
 			System.out.println("Ends");
-	}
+	}}
 }
