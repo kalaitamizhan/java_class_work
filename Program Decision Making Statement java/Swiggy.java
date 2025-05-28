@@ -4,8 +4,10 @@ class Swiggy
 	static Scanner sc=new Scanner(System.in);
 	public static void main(String[]args)throws Exception
 	{
-		System.out.println("\t\t\t\tWelcom To Swiggy");
+		System.out.println("\t\t\t\tWelcome To Swiggy");
 		System.out.println("\t\t\t\t..........................");
+		System.out.println("Getting you into the Hotels......");
+	    Thread.sleep(2000);
 		System.out.println("Hotel Names");
 		System.out.println(".............");
 	System.out.println("1.Taj\n2.A2B\n3.Amma Canteen");
@@ -15,21 +17,21 @@ class Swiggy
 	Thread.sleep(2000);
 	switch (hotel_name)
 	{
-	case 1:{System.out.println("\t\t\t\tWelcom to Taj");
+	case 1:{System.out.println("\t\t\t\tWelcome to Taj");
 	        System.out.println("\t\t\t\t.......................");
 			System.out.println("Today Menu");
 			System.out.println("............");
 	        System.out.println("1.Mutton Biryani\n2.chikan Biryani\n3.prawn Biryani");
 			System.out.print("\nSelect your Food:");
 			int food=sc.nextInt();
-			System.out.println("Getting you into the Hotel......");
+			System.out.println("Server Busy......");
 	        Thread.sleep(2000);
 			if (food==1)
 			{ 
 				System.out.println("\nMutton Biryani price is 450Rupees");
 				System.out.print("\nEnter your Quantity:");
 				int Quantity=sc.nextInt();
-				System.out.println("Getting you into the Hotel.......");
+				System.out.println("Processing.......");
 	            Thread.sleep(2000);
 				int mutt_bir =450;
 			    double bill= mutt_bir* Quantity;
@@ -47,14 +49,14 @@ class Swiggy
 			      System.out.println("\n1.Gpay\n2.Phonepay");
 			      System.out.print("\nSelect your payment method:");
 			      int Payment=sc.nextInt();
-			      System.out.println("Processing......");
+			      System.out.println("Busy Server......");
 	              Thread.sleep(2000);
 			if (Payment==1)
 			{   System.out.println("\nGpay");
 				System.out.println("..........");
 				System.out.print("\nEnter the bill amount here:");
 				double user_bill=sc.nextDouble();
-				System.out.println("Processing......");
+				System.out.println("Bank Server Busy......");
 	            Thread.sleep(2000);
 			if (user_bill==bill)
 			{
@@ -120,7 +122,7 @@ class Swiggy
 					System.out.println("\nChikan Biryani price is 250 Rupees");
 					System.out.print("\nEnter your Quantity:");
 				    int Quantity=sc.nextInt();
-				    System.out.println("Getting you into the Hotel.......");
+				    System.out.println("Getting you into the Food Menu.......");
 	                Thread.sleep(2000);
 					int ch_bir=250;
 			        double bill=ch_bir*Quantity;
@@ -209,7 +211,7 @@ class Swiggy
 					System.out.println("\nPrawn Biryani price is 150 Rupees");
 					System.out.print("\nEnter your Quantity:");
 				    int Quantity=sc.nextInt();
-				    System.out.println("Getting you into the Hotel.......");
+				    System.out.println("Getting you into the FOod Menu.......");
 	                Thread.sleep(2000);
 					int pr_bir=150;
 			        double bill=pr_bir*Quantity;
@@ -293,14 +295,15 @@ class Swiggy
 			break;
 		    }
 //.........................................................................................			
-	case 2:{System.out.println("\t\t\t\tWelcom to A2B");
+	case 2:{
+		    System.out.println("\t\t\t\tWelcome to A2B");
 	        System.out.println("\t\t\t\t.......................");
 			System.out.println("Today Menu");
 			System.out.println("............");
 	        System.out.println("1.Meals\n2.Sambar rice\n3.Curd rice");
 			System.out.print("\nSelect your Food:");
 			int food=sc.nextInt();
-			System.out.println("Getting you into the Hotel......");
+			System.out.println("Getting you into the Food Menu......");
 	        Thread.sleep(2000);
 			if (food==1)
 			{ 
@@ -571,7 +574,7 @@ class Swiggy
 			}
 		break;}
 		
-	case 3:{System.out.println("\t\t\t\tWelcom to Amma Canteen");
+	case 3:{System.out.println("\t\t\t\tWelcome to Amma Canteen");
 	        System.out.println("\t\t\t\t.......................");
 			System.out.println("Today Menu");
 			System.out.println("............");
