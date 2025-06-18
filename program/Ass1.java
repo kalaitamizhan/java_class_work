@@ -1,6 +1,6 @@
 class Ass1
-{ static int x=100;
-  static int y=20;
+{ static int a=100;
+  static int b=20;
 	public static void main(String[] args) 
 	{
 		int c=a+b;

@@ -1,0 +1,16 @@
+class ram
+{
+	public static void ram(String a)
+		System.out.println("Hi Iam ram");
+	system.out.println("I Love "+a);
+}
+    public static int sita()
+   {
+   System.out.println("Hi Iam Sita");
+   ram("Sita");
+}
+   public static void main(String[]args)
+   {
+	System.out.prinln("Hi Iam Main");
+	System.out.println("Bey From Main");
+   }
