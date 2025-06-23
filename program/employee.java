@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 class employee
 {
 	static Scanner ak = new Scanner(System.in);

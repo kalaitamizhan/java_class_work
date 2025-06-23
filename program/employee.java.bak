@@ -1,7 +1,7 @@
-import java.util.Scanner;
-class Employee
+import java.util.*;
+class employee
 {
-	static Scanner ak = new Scanner(System.in);
+	//static Scanner ak = new Scanner(System.in);
 	public static void main(String[] args) 
 	{
 		System.out.print("\t\t\tEnter your ID:");

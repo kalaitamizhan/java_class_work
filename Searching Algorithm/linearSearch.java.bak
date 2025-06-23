@@ -17,7 +17,7 @@ class linearSearch
 		System.out.println(Arrays.toString(a));
 		System.out.print("\t\t\tEnter the key element:");
 		int element=sc.nextInt();
-		if (linearSearch(a,element)//fale)
+		if (linearSearch(a,element))
 		{
 			System.out.println("\npresent");
 		} else
