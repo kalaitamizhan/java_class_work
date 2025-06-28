@@ -11,18 +11,16 @@ class MergeSort
 	}
 	public static void divide(int[]a,int l,int h)
 	{
-		if (i==j)
-		{
-			return;
-		}
-		int m=l+h/2;
-		divide(a,l,m);
-		divide(a,m+1,h);
-		merge(a,l,m,h);
+		if (l==h)
+		return;
+		int m =(l+h)/2;
+		divide(a,l,m);//left divide
+		divide(a,m+1,h);//right divide
+		merge(a,l,m,h);//merge
 	}
 	public static void merge(int[]a,int l,int m,int h );
 	{
-		int left=1,right=m+1;
+		int left=0,right=m+1;
 		int[]k=new int[a.length];
 		int x=0;
 		while (left<=m && right<=h)
