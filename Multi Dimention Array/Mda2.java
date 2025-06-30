@@ -4,18 +4,25 @@ class Mda2
     static Scanner sc=new Scanner(System.in);
     public static void main(String[]args)
     {
-        System.out.print("Enter the size of element:");
-         int size=sc.nextInt();
-         int []arr=new int[size];
-         int maximum=Integer.MIN_VALUE,minimum=Integer.MAX_VALUE;
+         int [][]arr=new int[3][3];
          for(int i=0;i<arr.length;i++)
          {
-            System.out.print("Enter the element:");
-            arr[i]=sc.nextInt();
-             maximum=Math.max(arr[i],maximum);
-            minimum=Math.max(arr[i],minimum);
+            for(int j=0;j<arr[i].length;j++)
+            {
+            System.out.print("Enter the element["+i+"]["+j+"]:");
+            arr[i][j]=sc.nextInt();  
+            }  
+            System.out.println(); 
          }
-         System.out.println("Maximum number is:"+maximum);
-         System.out.println("Minimum number is:"+minimum);
+          for(int i=0;i<arr.length;i++)
+         {
+            for(int j=0;j<arr[i].length;j++)
+            {
+            System.out.print(arr[i][j]+" ");
+            }
+            System.out.println();   
+         }
+        
+         
     }
 }
