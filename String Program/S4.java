@@ -1,3 +1,9 @@
+ /*
+    method           returnType     purpose     
+----------------     -----------   ---------
+data1.equals(data2)	    boolean     compare String Content
+                                    	  
+ */
 import java.util.*;
 class S4  
 {

@@ -1,3 +1,9 @@
+ /*
+    method           returnType     purpose     
+----------------     -----------   ---------
+Vname.length()	       int             to get the length  
+                                    of the String	  		  
+ */
 class S2 
 {
 	public static void main(String[] args) 
