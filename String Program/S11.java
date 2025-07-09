@@ -6,10 +6,11 @@ class S11
 {
 	public static String solve(String str) 
 	{
-		
+		//str=str.toLowerCase();
 		char[]a=str.toCharArray();
 		int l=0,r=a.length-1;
 		char temp=' ';
+		//str=['H','i','@','h','o','w','#','y','o','U']
 		while (l<r)
 		{    
 			if (a[l]>='a'&& a[l]<='z'&& a[r]>='a'&&a[r]<='z')
@@ -19,7 +20,8 @@ class S11
 				a[r]=temp;
 				l++;
 				r--;
-			}else if (a[l]!='a'&&a[l]!='z')
+			}
+			else if (a[l]!='a'&&a[l]!='z')
 			{
 			  l++;
 			}	
@@ -35,7 +37,7 @@ class S11
 		{
 			String str="hi@how#you";
 			System.out.println("\n"+str);
-			System.out.print("\noutput:"+solve(str)+"\n");
+			System.out.print(ja"\n"+solve(str));
 			
 		}
 		
